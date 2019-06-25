@@ -1,9 +1,9 @@
 body {
   text-align: center;
   margin: 0;
+  font-family: "游ゴシック";
+  color: #545454;
 }
-
-
 
 .outline {
   margin: 0 5%;
@@ -48,7 +48,7 @@ ul {
 
 
 .h2title {
-  margin: 0 0 70px 0;
+  margin: 20px 0 15px 0;
 }
 
 
@@ -56,41 +56,106 @@ ul {
 
 .topward {
   font-size: 25px;
-  font-family: serif;
 }
 
 .firsth2 {
-  margin: 0 0 70px 0;
+  margin: 0 0 30px 0;
 }
 
 .message {
   width:100%;
-  display: inline-block;
-  text-align: left;
-  font-family: serif;
+  text-align: justify;
   font-size: 15px;
-  color: #545454;
+  margin: 0 0 30px 0;
 }
 
 .message p {
   margin: 0 0 35px 0;
 }
 
+#timeimg {
+  margin: 0 0 30px 0;
+}
+
+.name {
+  font-size: 35px;
+}
+
 .profile {
   text-align: center;
 }
 
-table {
-  display: inline-block;
-  font-size: 20px;
-}
-
-
-
 .info {
-  width: 700px;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-
+  width: 100%;
+  text-align: center;
 }
+
+#tyuui {
+  font-size: 23px;
+}
+
+.syousai {
+  display: inline-block;
+  text-align: left;
+  font-size: 40px;
+  margin: 0 0 30px 0;
+}
+
+td {
+  padding: 0 80px 0 0 ;
+}
+
+form {
+  text-align: center;
+    width: 100%;
+}
+
+.form {
+  display: inline-block;
+  text-align: left;
+  font-size: 30px;
+  margin: 0 0 30px 0;
+}
+
+.form input {
+  margin: 0 0 30px 0;
+width: 300px;
+height: 50px;
+}
+
+.form #goiken {
+  width: 300px;
+  height: 100px;
+}
+
+#sousin  {
+  font-size: 25px;
+  font-family: "游ゴシック";
+  text-align: center;
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  background-color: #EB5D00;
+  color: #ffffff;
+  border: solid 2px #EB5D00;
+  border-radius: 30px;
+  transition: .4s;
+  margin: 0 0 50px 0;
+}
+
+#sousin:hover {
+  background: #ffffff;
+  color: #EB5D00;
+}
+
+.fotter {
+background-color: #B8B4B1;
+color: #ffffff;
+display: flex;
+justify-content: space-between;
+padding: 30px 45px;
+text-align: left;
+}
+
+
+
